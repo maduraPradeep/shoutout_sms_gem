@@ -1,5 +1,5 @@
 Gem::Specification.new do |s|
-    s.name        = 'shoutout'
+    s.name        = 'shoutout_lite'
     s.version     = '1.0.0'
     s.summary     = "ShoutOUT SMS API"
     s.description = "ShoutOUT SMS API integration"
