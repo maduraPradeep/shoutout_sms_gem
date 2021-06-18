@@ -2,7 +2,7 @@ class Shoutout::SMS
 
     def self.send(apikey,from,to,body)
 
-        return RestClient.postJson(
+        return Shoutout::RestClient.postJson(
             body:{
                 'source' => from, 
                 'transports':['sms'],

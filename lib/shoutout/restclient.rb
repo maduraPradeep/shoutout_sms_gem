@@ -1,4 +1,4 @@
-class RestClient
+class Shoutout::RestClient
 
 #     def self.postJson(apikey:,body:,url:)
 # puts body.to_json
